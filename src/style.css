@@ -1,1 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/water.css@2/out/water.css");
+
+@media (min-width: 768px) {
+	.horizontal-list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
